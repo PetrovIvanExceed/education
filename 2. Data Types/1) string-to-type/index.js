@@ -1,4 +1,4 @@
-function stringToType(str) {
+function stringToType(str){
   try {
     return JSON.parse(str);
   } catch {
